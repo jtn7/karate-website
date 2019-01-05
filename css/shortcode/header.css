@@ -8,12 +8,13 @@ Version: 1.0
 NOTE: This is Header style file. All Header related style included in this file.
 
 --------------------------------------*/
-.logo{padding: 36px 0;
+.logo{padding: 0px 0;
 	transition: all 0.4s ease 0s;
 }
 .logo a {display: inline-block}
 .fixed {
-  background: #20232a none repeat scroll 0 0;
+  /* background: #20232a none repeat scroll 0 0; */
+  background: #2d2d31 none repeat scroll 0 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -44,7 +45,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     text-decoration: none;
 }
 .main-menu ul li:last-child a{padding-right: 0}
-.main-menu > nav > ul > li:hover > a, .main-menu nav ul li.active a {color: #00E676;}
+.main-menu > nav > ul > li:hover > a, .main-menu nav ul li.active a {color: #f6d01a;}
 .main-menu ul li ul {
     background: #ffffff none repeat scroll 0 0;
     left: 0;
@@ -151,9 +152,9 @@ NOTE: This is Header style file. All Header related style included in this file.
     padding: 10px 0;
 }
 .sticky .mean-container a.meanmenu-reveal {margin-top: -51px}
-.sticky .logo {
+/* .sticky .logo {
     padding: 19px 0 17px;
-}
+} */
 .header-area .sticky {
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
     box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4)
@@ -190,10 +191,10 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 .logo img {
   transition: all 0.5s ease 0s;
-  width: 100%;
+  width: 75%;
 }
 .sticky .logo img {
-  width: 75%;
+  width: 70%;
 }
 .menu-icon {
     border: 1px solid #464646;
@@ -279,7 +280,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 #search-form > input::-moz-placeholder {color: #252525;} 
 #search-form > input::-webkit-input-placeholder {color: #252525;}
 #search-form > button {
-  background: #00E676 none repeat scroll 0 0;
+  background: #f6d01a none repeat scroll 0 0;
   border: 2px solid #c5c596;
   color: #ffffff;
   font-size: 30px;
@@ -308,7 +309,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-.search-menu:hover{color:#00E676}
+.search-menu:hover{color:#f6d01a}
 .open .search {
     display: block;
     opacity: 1;
@@ -317,7 +318,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     z-index: 2;
 }
 .mean-container .mean-nav ul > li:hover > a {
-  color: #00E676;
+  color: #f6d01a;
   margin-left: 5px;
 }
 .login-register{background: #1B1D23}
@@ -340,7 +341,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
-.login-register ul li:hover a{color: #00E676}
+.login-register ul li:hover a{color: #f6d01a}
 .sticky .main-menu ul li a {
     padding: 10px 15px;
 }

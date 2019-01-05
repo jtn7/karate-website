@@ -64,7 +64,7 @@ a:focus{
 }
 a:focus,
 a:hover {
-    color: #00E676;
+    color: #f6d01a;
     text-decoration: none;
 }
 a:active, a:hover {
@@ -152,7 +152,7 @@ ul{
     text-transform: capitalize;
     z-index: 9;
 }
-.default-btn:hover { color: #00E676; background: #fff}
+.default-btn:hover { color: #f6d01a; background: #fff}
 input,
 select,
 textarea {
@@ -279,7 +279,7 @@ textarea {
     color: #ffffff;
 }
 #scrollUp {
-    background: #00E676 none repeat scroll 0 0;
+    background: #f6d01a none repeat scroll 0 0;
 }
 /*************************
     05. Basic margin padding
@@ -596,7 +596,8 @@ textarea {
 /*************************************
     09. Background variation set 
 **************************************/
-.bg-dark { background: #131313 }
+/* .bg-dark { background: #131313 } */
+.bg-dark { background: #2d2d31 }
 .bg-black { background: #000000 }
 .bg-light { background: #F9F9F9 }
 .bg-ash { background: #FAFAFA}
@@ -670,7 +671,7 @@ textarea {
     text-align: left;
 }
 .breadcrumb-text h3 {
-    color: #00E676;
+    color: #f6d01a;
     font-family: 'Roboto', sans-serif;
     line-height: 26px;
     margin-bottom: 24px;

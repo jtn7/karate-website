@@ -60,7 +60,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
     right: 5px;
     top: 5px; 
     margin-top: 0;
-    background: #00E676;
+    background: #f6d01a;
     color: #fff;
     height: 40px;
     width: 60px;
@@ -72,7 +72,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 #mc-embedded-subscribe:hover{
     background: #fff;
-    color: #00E676;
+    color: #f6d01a;
 }
 .single-ins{float: left; position: relative}
 .single-ins:after{
@@ -83,6 +83,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
     height: 100%;
     content: "";
     background: rgba(0, 230, 118, 0.5);
+    /* background: #7395AE; */
     opacity: 0;
     pointer-events: none;
     -webkit-transition: all 0.5s ease 0s;
@@ -98,7 +99,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .footer-social ul li{
     display: inline-block;
-    border: 1px solid #00E676;
+    border: 1px solid #f6d01a;
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -126,13 +127,13 @@ NOTE: This is Footer style file. All footer related style included in this file.
     background: #fff
 }
 .footer-social ul li:hover span{
-    color : #00E676;
+    color : #f6d01a;
 }
 .footer-bottom p{
     color: #999999;
 }
 .footer-bottom a, .footer-bottom a{
-    color: #00E676;
+    color: #f6d01a;
 }
 .footer-bottom a:hover{
     text-decoration: underline;

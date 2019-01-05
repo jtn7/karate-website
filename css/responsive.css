@@ -40,7 +40,7 @@
     .right .feature-content {padding-left: 38px}
     .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -79px}
     .feature-content {margin-left: -66px}
-    .sticky .logo {padding: 22px 0 22px}
+    .sticky .logo {padding: 0px; width: 75%;}
     .fun-content h3 {font-size: 60px}
     .single-fun { margin: 0px;}
     .slider-img-three{height: 413px; width: 550px}
@@ -52,7 +52,8 @@
     .container{width:750px} 
     .slider-area {height: 550px}
     .main-menu ul li a {padding: 25px 15px}
-    .logo {padding: 27px 0 28px}
+    .logo {padding: 0;}
+    .logo img { width: 90%}
     .slider-img-three {bottom: 25%; height: 300px; width: 490px; right: 0}
     .slider-content h2 {font-size: 40px}
     .slider-content p {font-size: 18px;}
@@ -92,7 +93,7 @@
     .feature-content h4 {font-size: 14px}
     .col-md-3 .right.single-feature:nth-child(2) .feature-content {margin-left: -65px}
     .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -85px}
-    .sticky .logo {padding: 25px 0}
+    /* .sticky .logo {padding: 0px 0} */
     .single-fun { margin: 0px;}
     .slider-area, .banner-area-wrapper {padding-top: 78px}
 }
@@ -101,7 +102,7 @@
 @media (max-width: 767px) {
     .container {width:300px}
     .slider-area {height: 430px;}
-    .logo {padding: 35px 0 0}
+    .logo {padding: 50px, 0, 0; width: 80%}
     .slider-img-three, .header-sticky.sticky{display: none}
     .single-fun {margin: 0 30px}
     .single-service, .trainer-content, .single-fun, .single-blog, .footer-widget, .single-instructor.single-class, .single-skill{margin-bottom: 30px}
@@ -145,7 +146,7 @@
     ul.children_comment {padding-left: 20px}
     .detail-area .contact-area {margin-top: 0; padding-top: 0}
     .detail-area, .feature-area.single{padding-bottom: 0}
-    {padding-bottom: 0}
+    /* {padding-bottom: 0} */
     .feature-area{padding-top: 0}
     .trainer-content a {margin-top: 25px}
     .slider-area, .banner-area-wrapper {padding-top:112px}
