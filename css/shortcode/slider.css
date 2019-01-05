@@ -1,0 +1,213 @@
+/* -----------------------------------
+Template Name: Judo - Karate School HTML Template
+Template URI: https://devitems.com/html/food-preview/
+Description: This is html5 template
+Author: HasTech
+Author URI: https://devitems.com/
+Version: 1.0
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+.slider-area {position: relative; overflow: hidden;}
+.single-slide:before {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    background: rgba(0, 230, 118, 0.7);
+    content: "";
+    height: 100%;
+    width: 54%;
+    z-index: 1;
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+.single-slide:after {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    background: rgba(0, 230, 118, 0.9);
+    content: "";
+    height: 100%;
+    width: 62%;
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    z-index: 1;
+}
+.single-slide{position: relative; overflow: hidden}
+.slider-area img {width: 100%;}
+.slider-area, .slider-content, .single-slide, .owl-item, .owl-stage, .slider-wrapper, .owl-stage-outer, .slider-content .container, .slider-content .row, .slider-content .col-md-12, .slider-content .text-content-wrapper, .slider-content .col-lg-12, .slider-content .text-content-wrapper, .slider-content .text-content, .slider-content .display-table, .slider-content .display-table-cell{
+    height: 100%;
+} 
+.slider-content, .text-content{z-index: 99; position: relative}
+.text-content-wrapper, .slider-area img {width: 100%;}
+.slider-content .text-content-wrapper {display: table;}
+.slider-content .text-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-btn {
+    clear: both;
+    display: block;
+}
+.banner-btn {
+  background: transparent;
+  color: #d4a762;
+  display: inline-block;
+  border: 1px solid #d4a762;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 39px;
+  overflow: hidden;
+  padding: 0 30px;
+  border-radius: 3px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.banner-btn::before, .banner-btn::after, .banner-btn span::before, .banner-btn span::after {
+    background-color: rgba(212, 167, 98, 0.5);
+    content: "";
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 0;
+    z-index: -1;
+}
+.banner-btn::after, .banner-btn span::before {
+    left: auto;
+    right: 0;
+}
+.banner-btn span::before, .banner-btn span::after {
+    transition-delay: 0.4s;
+}
+.banner-btn:active {
+    background-color: #d4a762;
+}
+.slider-content h2 {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.slider-content p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.slider-area .owl-item.active .slider-content h2, .slider-area .owl-item.active .slider-content p, .slider-area .owl-item.active .default-btn{
+    -webkit-animation: 650ms ease-in-out 0s normal both 1 running fadeInLeft;
+            animation: 650ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+.slider-area .owl-item.active .default-btn{
+    -webkit-animation: 300ms ease-in-out 0s normal both 1 running fadeInLeft;
+            animation: 300ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+.slider-img-one{
+    -webkit-animation: 500ms ease-in-out 0s normal both 1 running fadeInLeft;
+            animation: 500ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+.slider-img-two{
+    -webkit-animation: 850ms ease-in-out 0s normal both 1 running fadeInLeft;
+            animation: 850ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+.slider-img-three{
+    -webkit-animation: 650ms ease-in-out 0s normal both 1 running fadeInRight;
+            animation: 650ms ease-in-out 0s normal both 1 running fadeInRight;
+    z-index: 99;
+}
+.slider-area .owl-item.active .slider-content h2 {-webkit-animation-delay: 800ms;animation-delay: 800ms}
+.slider-area .owl-item.active .slider-content p {-webkit-animation-delay: 1100ms;animation-delay: 1100ms}    
+.slider-area .owl-item.active .slider-content .default-btn {-webkit-animation-delay: 1700ms;animation-delay: 1700ms}    
+.slider-area .owl-item.active .slider-content .slider-img-one {-webkit-animation-delay: 1400ms;animation-delay: 1400ms}  
+.slider-area .owl-item.active .slider-content .slider-img-two {-webkit-animation-delay: 1700ms;animation-delay: 1700ms}  
+.slider-area .owl-item.active .slider-content .slider-img-three {-webkit-animation-delay: 1000ms;animation-delay: 1000ms}  
+.owl-nav div {
+    background: rgba(255, 255, 255, 0.15);
+    color: #00E676;
+    font-size: 30px;
+    border-radius: 3px;
+    height: 40px;
+    left: -46px;
+    line-height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+    z-index: 999;
+}
+.owl-nav .owl-next {left: auto; right: -46px;}
+.slider-area:hover .owl-nav div {left: 0;}
+.slider-area:hover .owl-nav .owl-next {left: auto;  right: 0;}
+.owl-nav div:hover{background: rgba(0, 230, 118, 0.6); color: #fff}
+.single-slide{background-position: top center; background-size: cover}
+.one-page-arrow {
+    border: 1px solid #00E676;
+    border-radius: 20px;
+    bottom: 20px;
+    height: 32px;
+    left: 50%;
+    margin-left: -4px;
+    position: absolute;
+    text-align: center;
+    width: 16px;
+    z-index: 2;
+}
+.one-page-arrow i {
+    color: #d4a762;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 1;
+}
+.slider-img-one{
+    position: absolute;
+    left: -27%;
+    bottom: 0;
+    width: 1270px;
+    height:830px;
+    content: "";
+}
+.slider-img-two{
+    position: absolute;
+    left: -24%;
+    bottom: 0;
+    width: 1175px;
+    height: 830px;
+    content: "";
+}
+.slider-img-three {
+  bottom: 0;
+  content: "";
+  height: 488px;
+  position: absolute;
+  right: 80px;
+  width: 650px;
+}
+.slider-area{
+  padding-top: 118px;
+  background: #20232a none repeat scroll 0 0;
+}
+.slider-area {
+    height: 650px;
+}

@@ -1,0 +1,165 @@
+/* -----------------------------------
+Template Name: Judo - Karate School HTML Template
+Template URI: https://devitems.com/html/coffee-preview/
+Description: This is html5 template
+Author: HasTech
+Author URI: https://devitems.com/
+Version: 1.0
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+.footer-widget h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.footer-widget h3:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 50px;
+    content: "";
+    background: #FFFFFF;
+}
+.add-left{display: inline-block; margin-right: 15px; float: left}
+.col-md-4:first-child .footer-widget .single-add:nth-child(3) .add-left {margin-right: 30px}
+.col-md-4:first-child .footer-widget .single-add:nth-child(4) .add-left {margin-right: 36px}
+.add-left h4{
+    color :#f6f6f6;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.add-right{display: table}
+.add-right p, .footer-widget > p{
+    color :#cccccc;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.subscribe-form input {
+  border: 1px solid #616161;
+  border-radius: 45px;
+  height: 50px;
+  padding: 0 70px 0 30px;
+}
+.mc-form{position: relative; margin-top: 15px}
+.mc-news {
+  left: -5000px;
+  position: absolute;
+}
+#mc-embedded-subscribe{
+    position: absolute;
+    right: 5px;
+    top: 5px; 
+    margin-top: 0;
+    background: #00E676;
+    color: #fff;
+    height: 40px;
+    width: 60px;
+    border: none;
+    padding: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+#mc-embedded-subscribe:hover{
+    background: #fff;
+    color: #00E676;
+}
+.single-ins{float: left; position: relative}
+.single-ins:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 230, 118, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-ins:hover::after{opacity: 1}
+.footer-social{margin-top: 30px}
+.footer-social ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-social ul li{
+    display: inline-block;
+    border: 1px solid #00E676;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.footer-social ul li a{
+    display: block;
+}
+.footer-social ul li:last-child{margin-right: 0}
+.footer-social ul li span{
+    color: #cccccc;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.footer-social ul li:hover{
+    border: 1px solid #fff;
+    background: #fff
+}
+.footer-social ul li:hover span{
+    color : #00E676;
+}
+.footer-bottom p{
+    color: #999999;
+}
+.footer-bottom a, .footer-bottom a{
+    color: #00E676;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container{width: 1230px}
+    .slider-content h2 {font-size: 70px; margin-bottom: 20px}
+    .slider-content p {font-size: 24px}
+    .slider-area {height: 830px}
+    .trainer-content p, .skill-content p, .about-content p, .contact-content p, .contact-content button{font-size: 16px}
+    .single-class-img img, .single-instructor.single-class img, .blog-img img{width: 100%}
+    .instructor-content {padding: 19px 30px 21px}
+    .slider-img-three {bottom: 30px; right: 75px}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container{width: 970px}
+    .class-hover {bottom: -12%}
+    .single-class:hover .class-hover {height: 33%}
+    .trainer-content {margin-top: 20px}
+    .trainer-content h2 {font-size: 32px;}
+    .trainer-img {margin-right: 20px;}
+    .trainer-content a {margin-top: 35px}
+    .single-instructor:hover .instructor-social {right: 15px}
+    .instructor-content ul li {font-size: 13px}
+    .instructor-social {top: 10%}
+    .col-md-4 .footer-widget .single-ins:last-child, .col-md-4 .footer-widget .single-ins:nth-child(6){display: none}
+    .col-md-4 .footer-widget .single-ins:nth-child(4){margin-right: 10px}
+    .slider-img-three{bottom: 55px; height: 473px; width: 630px}
+    .main-menu ul li a {padding: 38px 15px}
+    .login-register ul li a {padding: 43px 5px}
+    .skill-content h3 {font-size: 20px;}
+    .instructor-content h3 {font-size: 16px}
+    .single-fun {padding: 50px 50px 55px}
+    .about-content p {margin-bottom: 15px}
+    .about-img{margin-left: 30px;}
+    .instructor-content {padding: 12px 30px 14px}
+    .blog-content h3 a {font-size: 16px; line-height: 24px}
+    .single-slide::after, .single-slide::before {left: -11%}
+    .feature-content::after {font-size: 25px}
+    .feature-content {padding-right: 38px}
+    .right .feature-content {padding-left: 38px}
+    .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -79px}
+    .feature-content {margin-left: -66px}
+    .sticky .logo {padding: 22px 0 22px}
+    .fun-content h3 {font-size: 60px}
+    .single-fun { margin: 0px;}
+    .slider-img-three{height: 413px; width: 550px}
+    .slider-area, .banner-area-wrapper{padding-top: 102px}
+    
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{width:750px} 
+    .slider-area {height: 550px}
+    .main-menu ul li a {padding: 25px 15px}
+    .logo {padding: 27px 0 28px}
+    .slider-img-three {bottom: 25%; height: 300px; width: 490px; right: 0}
+    .slider-content h2 {font-size: 40px}
+    .slider-content p {font-size: 18px;}
+    .trainer-content {margin-top: 0px}
+    .trainer-content h2 {font-size: 23px; padding-bottom: 10px; margin-bottom: 10px}
+    .trainer-img {margin-right: 0px;}
+    .trainer-content h5 {font-size: 14px; margin-bottom: 5px}
+    .trainer-content a {margin-top: 20px}
+    .trainer-content h4 {font-size: 18px;line-height: 22px; margin-bottom: 0px}
+    .single-fun {padding: 25px 20px 30px}
+    .blog-content {padding: 20px 0px 0}
+    .blog-content h3 a {font-size: 15px; line-height: 20px}
+    .fun-content h3 {font-size: 45px}
+    .feature-content {padding-right: 35px}
+    .right .feature-content{padding-left: 35px}
+    .feature-content::after {font-size: 20px}
+    .service-area{ margin-bottom: 50px}
+    .class-area{padding-top: 50px; padding-bottom: 20px}
+    .trainer-area, .contact-area, .login-area, .news-sidebar-widgets{padding-top: 50px}
+    .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single, .blog-area, .instructor {padding-top: 50px; padding-bottom: 50px}
+    .about-img{margin-left: 0}
+    .about-content h3 {font-size: 26px; margin-bottom: 10px}
+    .about-content p:nth-child(3){display: none}
+    .about-content p{margin-bottom: 18px}
+    .about-img{margin-left: 0px;}
+    .contact-content h3 {font-size: 25px; margin-bottom: 10px; padding-bottom: 12px}
+    .contact-content p, .contact-content form input {margin-bottom: 18px}
+    .contact-content form input {height: 40px; padding: 12px 10px 12px 35px}
+    textarea {height: 80px}
+    .contact-content form textarea {margin-bottom: 0}
+    .contact-content button { padding: 10px 30px; font-size: 14px; margin-top: 15px}
+    ul.children_comment {padding-left: 20px}
+    .detail-area .contact-area {margin-top: 0; padding-top: 0}
+    .detail-area, .feature-area, .feature-area.single{padding-bottom: 0}
+    .feature-area {padding-top: 0; padding-bottom: 50px}
+    .single-class:hover .register {bottom: 53%}
+    .feature-content h4 {font-size: 14px}
+    .col-md-3 .right.single-feature:nth-child(2) .feature-content {margin-left: -65px}
+    .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -85px}
+    .sticky .logo {padding: 25px 0}
+    .single-fun { margin: 0px;}
+    .slider-area, .banner-area-wrapper {padding-top: 78px}
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {width:300px}
+    .slider-area {height: 430px;}
+    .logo {padding: 35px 0 0}
+    .slider-img-three, .header-sticky.sticky{display: none}
+    .single-fun {margin: 0 30px}
+    .single-service, .trainer-content, .single-fun, .single-blog, .footer-widget, .single-instructor.single-class, .single-skill{margin-bottom: 30px}
+    .col-md-4:last-child .single-service, .col-md-3:last-child .single-fun, .col-md-4:last-child .single-blog, .col-md-4:last-child .footer-widget, .col-md-3:last-child .single-instructor.single-class, .col-md-3:last-child .single-skill{margin-bottom: 0px}
+    .single-class img, .blog-img img, .sub-left, .sub-right, .sub-right > img{width: 100%}
+    .blog-content {padding: 20px 0 0}
+    .col-md-4 .footer-widget .single-ins:last-child, .col-md-4 .footer-widget .single-ins:nth-child(6){display: none}
+    .col-md-4 .footer-widget .single-ins:nth-child(4){margin-right: 10px}
+    .slider-content h2 {font-size: 34px}
+    .section-title h2 {font-size: 25px}
+    .service-area{margin-top: 30px; margin-bottom: 30px}
+    .quote {padding: 20px 25px 30px}
+    .single-feature-img{padding-bottom: 50px}
+    .trainer-content h2 {font-size: 25px}
+    .feature-area{padding-bottom: 0}
+    .service-area{ padding-top: 0px}
+    .class-area, .login-area{padding-top: 50px; padding-bottom: 50px}
+    .trainer-area{padding-top: 0px}
+    .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single, .blog-area, .instructor{padding-top: 50px; padding-bottom: 50px}
+    .single-slide::before {width: 90%; left: -22%}
+    .single-slide::after {width: 80%; left: -22%}
+    .feature-content, .col-md-3 .single-feature:nth-child(2) .feature-content, .col-md-3 .single-feature:nth-child(3) .feature-content {margin-left: 0px}
+    .right.feature-content {margin-right: 0px}
+    .col-md-3 .single-feature:nth-child(3), .col-md-3 .single-feature:nth-child(2) {padding-right: 0px}
+    .right .feature-content { margin-right: 0px; padding-right: 0}
+    .about-img{margin-left: 0}
+    .about-content h3 {font-size: 26px; margin-bottom: 10px}
+    .about-content p:nth-child(3){display: none}
+    .about-content p{margin-bottom: 18px}
+    .trainer-area{padding-top: 0}
+    .about-content, .contact-area{padding-top: 50px}
+    .social-share , .sub-right, .news-sidebar-widgets{padding-top: 30px}
+    .class-hover {bottom: -15%}
+    .class-hover ul li:first-child {margin-right: 20px}
+    .class-hover h3 a {font-size: 20px}
+    .class-hover {padding: 6px 20px 6px}
+    .single-class:hover .class-hover {height: 32%}
+    .single-class:hover .register {bottom: 51%}
+    .login-toggle-btn > a{float: left; margin: 10px 0}
+    .author {margin-right: 8px}
+    ul.children_comment {padding-left: 20px}
+    .detail-area .contact-area {margin-top: 0; padding-top: 0}
+    .detail-area, .feature-area.single{padding-bottom: 0}
+    {padding-bottom: 0}
+    .feature-area{padding-top: 0}
+    .trainer-content a {margin-top: 25px}
+    .slider-area, .banner-area-wrapper {padding-top:112px}
+    .single-fun { margin: 0px 0 30px 0;}
+    p.text-right{text-align: left}
+    .col-md-4:last-child .footer-widget h3{margin-top: 30px}
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    .single-fun{margin: 0 100px 30px 100px}
+    .single-instructor{margin: 0 80px}
+    .slider-content h2 {font-size: 54px}
+    .section-title h2, .slider-content h2 {font-size: 35px}
+    .single-slide::before {width: 75%}
+    .single-slide::after {width: 65%}
+    .class-hover h3 a {font-size: 20px}
+    .single-class:hover .register {bottom: 55%}
+    .class-hover {padding: 12px 20px 13px}
+    .single-class:hover .class-hover {height: 23%}
+    .login-toggle-btn > a{float: right; margin: 0}
+}
