@@ -114,9 +114,9 @@ label {
 .f-left {float: left}
 .f-right {float: right}
 p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #646464;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #5d5d5d;
 }
 ul{
 	list-style: outside none none;
@@ -601,7 +601,7 @@ textarea {
 .bg-black { background: #000000 }
 .bg-light { background: #F9F9F9 }
 .bg-ash { background: #FAFAFA}
-.bg-gray { background: #EFF2F7 }
+.bg-gray { background: #e2e2e234 }
 .transparent-bg { background: transparent }
 .bg-1, .bg-2, .bg-3, .bg-4, .bg-5{
     background-attachment: scroll; 

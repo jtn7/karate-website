@@ -11,7 +11,7 @@
 }
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1169px) {
+@media (min-width: 992px) and (max-width: 1919px) {
     .container{width: 970px}
     .class-hover {bottom: -12%}
     .single-class:hover .class-hover {height: 33%}
@@ -22,7 +22,8 @@
     .single-instructor:hover .instructor-social {right: 15px}
     .instructor-content ul li {font-size: 13px}
     .instructor-social {top: 10%}
-    .col-md-4 .footer-widget .single-ins:last-child, .col-md-4 .footer-widget .single-ins:nth-child(6){display: none}
+    .col-md-4 .footer-widget .single-ins:last-child, 
+    .col-md-4 .footer-widget .single-ins:nth-child(6){display: none}
     .col-md-4 .footer-widget .single-ins:nth-child(4){margin-right: 10px}
     .slider-img-three{bottom: 55px; height: 473px; width: 630px}
     .main-menu ul li a {padding: 38px 15px}
@@ -33,6 +34,7 @@
     .about-content p {margin-bottom: 15px}
     .about-img{margin-left: 30px;}
     .instructor-content {padding: 12px 30px 14px}
+    .trainer-area { padding-top: 1.5em;}
     .blog-content h3 a {font-size: 16px; line-height: 24px}
     .single-slide::after, .single-slide::before {left: -11%}
     .feature-content::after {font-size: 25px}
@@ -40,7 +42,7 @@
     .right .feature-content {padding-left: 38px}
     .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -79px}
     .feature-content {margin-left: -66px}
-    .sticky .logo {padding: 0px; width: 75%;}
+    .sticky .logo img {padding: 0px; width: 70%;}
     .fun-content h3 {font-size: 60px}
     .single-fun { margin: 0px;}
     .slider-img-three{height: 413px; width: 550px}
@@ -52,7 +54,7 @@
     .container{width:750px} 
     .slider-area {height: 550px}
     .main-menu ul li a {padding: 25px 15px}
-    .logo {padding: 0;}
+    .logo {padding: 0; width: 170px}
     .logo img { width: 90%}
     .slider-img-three {bottom: 25%; height: 300px; width: 490px; right: 0}
     .slider-content h2 {font-size: 40px}
@@ -73,7 +75,8 @@
     .service-area{ margin-bottom: 50px}
     .class-area{padding-top: 50px; padding-bottom: 20px}
     .trainer-area, .contact-area, .login-area, .news-sidebar-widgets{padding-top: 50px}
-    .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single, .blog-area, .instructor {padding-top: 50px; padding-bottom: 50px}
+    .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single,
+    .blog-area, .instructor {padding-top: 50px; padding-bottom: 50px}
     .about-img{margin-left: 0}
     .about-content h3 {font-size: 26px; margin-bottom: 10px}
     .about-content p:nth-child(3){display: none}
@@ -93,7 +96,7 @@
     .feature-content h4 {font-size: 14px}
     .col-md-3 .right.single-feature:nth-child(2) .feature-content {margin-left: -65px}
     .col-md-3 .single-feature:nth-child(2) .feature-content {margin-left: -85px}
-    /* .sticky .logo {padding: 0px 0} */
+    .sticky .logo {padding: 0; width: 200px}
     .single-fun { margin: 0px;}
     .slider-area, .banner-area-wrapper {padding-top: 78px}
 }
@@ -120,7 +123,7 @@
     .feature-area{padding-bottom: 0}
     .service-area{ padding-top: 0px}
     .class-area, .login-area{padding-top: 50px; padding-bottom: 50px}
-    .trainer-area{padding-top: 0px}
+    .trainer-area{padding-top: 1em;}
     .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single, .blog-area, .instructor{padding-top: 50px; padding-bottom: 50px}
     .single-slide::before {width: 90%; left: -22%}
     .single-slide::after {width: 80%; left: -22%}
@@ -132,7 +135,6 @@
     .about-content h3 {font-size: 26px; margin-bottom: 10px}
     .about-content p:nth-child(3){display: none}
     .about-content p{margin-bottom: 18px}
-    .trainer-area{padding-top: 0}
     .about-content, .contact-area{padding-top: 50px}
     .social-share , .sub-right, .news-sidebar-widgets{padding-top: 30px}
     .class-hover {bottom: -15%}

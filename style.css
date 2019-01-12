@@ -211,7 +211,7 @@
     line-height: 32px;
 }
 .trainer-content p{
-    font-size: 14px;
+    font-size: 16px;
     color: #666666;
     margin-bottom: 0px;
 }
@@ -309,6 +309,30 @@
 }
 .instructor-social ul li:hover span{
     color: #F6F6F6;
+}
+
+.instructor h3 {
+    font-weight: 350;
+    margin-bottom: 1em;
+}
+
+.instructor-bio {
+    text-indent: 1.5em;
+    font-size: 1.3em;
+    color: #5d5d5d;
+}
+
+.instructor-bio p {
+    padding-bottom: 0.7em;
+}
+
+.instructor-bio img {
+    display: block;
+    margin: 0 auto 2em;
+}
+
+.instructor-bio a {
+    text-decoration: underline;
 }
 /*----------------------------------------*/
 /*  7. Testimonial Area
@@ -1237,17 +1261,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.about-text {
+    font-size: 1.2em;
+    text-indent: 2em;
+}
