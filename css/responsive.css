@@ -1,5 +1,5 @@
 /* Large desktop :1920px. */
-@media (min-width: 1920px) {
+@media (min-width: 1818px) {
     .container{width: 1230px}
     .slider-content h2 {font-size: 70px; margin-bottom: 20px}
     .slider-content p {font-size: 24px}
@@ -11,7 +11,7 @@
 }
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1919px) {
+@media (min-width: 992px) and (max-width: 1817px) {
     .container{width: 970px}
     .class-hover {bottom: -12%}
     .single-class:hover .class-hover {height: 33%}
