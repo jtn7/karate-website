@@ -73,6 +73,9 @@
 .single-service:hover, .single-class:hover, .blog-img:hover, .single-skill:hover{
     box-shadow: 0px 0px 10px 1.4px rgba(0, 0, 0, 0.2);
 }
+.single-service:hover .service-head h3 {
+    color: #f6d01a;
+}
 /*----------------------------------------*/
 /*  2. Features Area
 /*----------------------------------------*/
@@ -1264,4 +1267,11 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 .about-text {
     font-size: 1.2em;
     text-indent: 2em;
+}
+
+.forms-area {
+    margin-bottom: 1em;
+}
+.forms-area .section-title {
+    margin-bottom: 1em;
 }

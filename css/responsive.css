@@ -72,7 +72,7 @@
     .feature-content {padding-right: 35px}
     .right .feature-content{padding-left: 35px}
     .feature-content::after {font-size: 20px}
-    .service-area{ margin-bottom: 50px}
+    .forms-area{ margin-bottom: 50px}
     .class-area{padding-top: 50px; padding-bottom: 20px}
     .trainer-area, .contact-area, .login-area, .news-sidebar-widgets{padding-top: 50px}
     .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single,
@@ -116,12 +116,12 @@
     .col-md-4 .footer-widget .single-ins:nth-child(4){margin-right: 10px}
     .slider-content h2 {font-size: 34px}
     .section-title h2 {font-size: 25px}
-    .service-area{margin-top: 30px; margin-bottom: 30px}
+    .forms-area{margin-top: 30px; margin-bottom: 30px}
     .quote {padding: 20px 25px 30px}
     .single-feature-img{padding-bottom: 50px}
     .trainer-content h2 {font-size: 25px}
     .feature-area{padding-bottom: 0}
-    .service-area{ padding-top: 0px}
+    .forms-area{ padding-top: 0px}
     .class-area, .login-area{padding-top: 50px; padding-bottom: 50px}
     .trainer-area{padding-top: 1em;}
     .fun-area, .footer-main, .about-area, .skilled-area, .detail-area, .feature-area.single, .blog-area, .instructor{padding-top: 50px; padding-bottom: 50px}
